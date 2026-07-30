@@ -1,8 +1,24 @@
 aid: makelog
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/makelog.png
 name: Makelog
-description: 'Makelog is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: productivity. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Makelog was a product changelog and release-notes platform that helped
+  software and product teams collect, curate, and publish product updates to communicate
+  releases with customers and internal stakeholders. It was surfaced as a portfolio
+  company of Accel and added to the API Evangelist network as a stub for enrichment
+  (sector: productivity). As of this enrichment pass the makelog.com domain no longer
+  resolves (DNS NXDOMAIN) and no live web, developer, or API surface could be reached,
+  indicating the product has been discontinued.'
 url: https://raw.githubusercontent.com/api-evangelist/makelog/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +26,20 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-evidence: 'makelog.com resolves NXDOMAIN as of 2026-07-20 (curl could not resolve
+  host; DNS lookup returned NXDOMAIN). No live API/developer surface reachable.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Productivity
+- ChangeLog
+- Release Notes
+- Product Updates
+- Communication
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,8 @@ maintainers:
 common:
 - type: Website
   url: https://www.makelog.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
