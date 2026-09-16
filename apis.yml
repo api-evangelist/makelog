@@ -23,13 +23,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/makelog.png
 name: Makelog
-description: 'Makelog was a product changelog and release-notes platform that helped
-  software and product teams collect, curate, and publish product updates to communicate
-  releases with customers and internal stakeholders. It was surfaced as a portfolio
-  company of Accel and added to the API Evangelist network as a stub for enrichment
-  (sector: productivity). As of this enrichment pass the makelog.com domain no longer
-  resolves (DNS NXDOMAIN) and no live web, developer, or API surface could be reached,
-  indicating the product has been discontinued.'
+description: 'Makelog was a product changelog and release-notes platform that helped software and product
+  teams collect, curate, and publish product updates to communicate releases with customers and internal
+  stakeholders. It was surfaced as a portfolio company of Accel and added to the API Evangelist network
+  as a stub for enrichment (sector: productivity). As of this enrichment pass the makelog.com domain no
+  longer resolves (DNS NXDOMAIN) and no live web, developer, or API surface could be reached, indicating
+  the product has been discontinued.'
 url: https://raw.githubusercontent.com/api-evangelist/makelog/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -38,11 +37,11 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
-x-status-evidence: 'makelog.com resolves NXDOMAIN as of 2026-07-20 (curl could not resolve
-  host; DNS lookup returned NXDOMAIN). No live API/developer surface reachable.'
+x-status-evidence: makelog.com resolves NXDOMAIN as of 2026-07-20 (curl could not resolve host; DNS lookup
+  returned NXDOMAIN). No live API/developer surface reachable.
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
 - Productivity
@@ -51,6 +50,7 @@ tags:
 - Product Updates
 - Communications
 - Software-as-a-Service
+- Defunct
 tags_raw:
 - Company
 - Productivity
