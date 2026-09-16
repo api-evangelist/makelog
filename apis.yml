@@ -41,7 +41,7 @@ x-status-evidence: makelog.com resolves NXDOMAIN as of 2026-07-20 (curl could no
   returned NXDOMAIN). No live API/developer surface reachable.
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Productivity
@@ -50,6 +50,7 @@ tags:
 - Product Updates
 - Communications
 - Software-as-a-Service
+- Defunct
 tags_raw:
 - Company
 - Productivity
@@ -58,6 +59,7 @@ tags_raw:
 - Product Updates
 - Communication
 - SaaS
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
